@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal Love Ministries | Chebrolu</title>
+    <!-- Custom CSS Stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<!-- Things Needed to be fixed
+    0. Make the header navigation as fixed
+    1. Animation to the header-navigation toggle button
+    2. // HAVING A BUG
+       // CLICK ON THE TOGGLE ICON
+       // NOW RESIZE THE WINDOW TO COMPUTER SCREEN WIDTH, THE DISPLAYED MENU
+       // WILL STILL BE VISIBLE
+    3. Try to change Contact us section to adjust form using maxwidth or minwidth
+    4. Animating button clicks and anything else
+    5. Code Optimization in all files
+    6. Decrease the Events card height and contact-section height
+-->
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <img class="header__logo--img" src="./images/logo-lite.png" alt="Eternal Love Ministries logo">
+                <h1 class="header__logo--txt">Eternal Love</h1>
+            </div>
+            <nav id="header__nav--lg">
+                <a href="">Testimonies</a>
+                <a href="">Events</a>
+                <a href="">Contact</a>
+            </nav>
+            <div id="header__toggle-btn">
+                <div class="header__toggle-chunck"></div>
+                <div class="header__toggle-chunck"></div>
+                <div class="header__toggle-chunck"></div>
+            </div>
+        </div>
+        <nav id="header__nav--sm" style="display: none;">
+            <a href="">Testimonies</a>
+            <a href="">Events</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container hero">
+            <img class="hero__img" src="./images/logo-dark.png" alt="" />
+            <div class="hero__txt">
+                <h2>Experience the True Love</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa harum ad soluta! Perspiciatis,
+                    minima! Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+                <div class="hero__btn-group">
+
+                </div>
+                <button href="contact" class="btn-secondary">Send prayer request</button>
+            </div>
+        </div>
+    </main>
+
+    <hr>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Testimonies</h2>
+            <div class="testimonials">
+                <article class="testimony">
+                    <img class="testimony__img" src="./images/profile-img-1.jpg" alt="person image">
+                    <h4 class="section-subtitle">Lorem ipsum dolor sit</h4>
+                    <p class="testimony__description">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Cumque
+                        totam
+                        facilis at dolore dolor
+                    </p>
+                    <a href="#">Read more...</a>
+                </article>
+                <article class="testimony">
+                    <img class="testimony__img" src="./images/profile-img-2.jpg" alt="person image">
+                    <h4 class="section-subtitle">Dolor lorem sit ipsum </h4>
+                    <p class="testimony__description">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Cumque
+                        totam
+                        facilis at dolore dolor
+                    </p>
+                    <a href="#">Read more...</a>
+                </article>
+                <article class="testimony">
+                    <img class="testimony__img" src="./images/profile-img-3.jpg" alt="person image">
+                    <h4 class="section-subtitle">Ipsum dolorLorem sit</h4>
+                    <p class="testimony__description">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Cumque
+                        totam
+                        facilis at dolore dolor
+                    </p>
+                    <a href="#">Read more...</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="container events">
+            <h2 class="section-title">Events</h2>
+            <!-- Write completely about event and minimise the words in mobile view and give a link to view the total event -->
+            <article>
+                <div class="event">
+                    <img src="./images/profile-img-4.jpg" alt="">
+                    <div class="event__description">
+                        <h4 class="section-subtitle">Lorem ipsum dolor sit amet Lorem, ipsum</h4>
+                        <p class="event__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ut nostrum dolor aspernatur
+                            accusantium. Debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+                            cupiditate!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="event" id="middle-event">
+                    <div class="event__description">
+                        <h4 class="section-subtitle">Lorem ipsum dolor sit amet Lorem, ipsum</h4>
+                        <p class="event__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ut nostrum dolor aspernatur
+                            accusantium. Debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+                            cupiditate!
+                        </p>
+                    </div>
+                    <img src="./images/profile-img-5.jpg" alt="">
+                </div>
+            </article>
+            <article>
+                <div class="event">
+                    <img src="./images/profile-img-1.jpg" alt="">
+                    <div class="event__description">
+                        <h4 class="section-subtitle">Lorem ipsum dolor sit amet Lorem, ipsum</h4>
+                        <p class="event__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad ut nostrum dolor aspernatur
+                            accusantium. Debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+                            cupiditate!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <a href="#">Explore more events...</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <div class="container" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact">
+                <img class="contact__img" src="./images/logo-dark.png" alt="">
+                <form action="#">
+                    <input type="text" name="name" placeholder="Full name">
+                    <input type="tel" name="Phone_number" placeholder="Phone number">
+                    <textarea name="prayer-request" id="" cols="20" rows="10"
+                        placeholder="Write your prayer request..."></textarea>
+                    <button class="btn-secondary">Send Prayer Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <a href="./index.html">
+                <div class="footer__ministry">
+                    <img class="footer__ministry--img" src="./images/logo-lite.png" alt="">
+                    <h5 class="footer__ministry--txt">Elite Love Ministries</h5>
+                </div>
+            </a>
+
+            <div class="footer__socialmedia">
+                <a href="#">WhatsApp</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
